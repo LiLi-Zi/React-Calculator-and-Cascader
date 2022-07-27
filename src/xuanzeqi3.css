@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+
+.X3container{
+   
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 20px;
+    position: relative;
+}
+.X3container .output{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 85%;
+    
+    
+}
+.X3container .down{
+    width: 15%;
+    line-height: 36px;
+    text-align: center;
+
+}
+.X3container .down:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    color: white;
+}
+
+.X3container .boxList{
+    position:absolute;
+    top:36px;
+    width: 300px;
+    /* display: flex; */
+    height: fit-content;
+    overflow: hidden;
+    box-shadow: 2px 2px  5px 2px grey;
+    
+    
+}
+.X3container .boxList ul{
+    
+    
+    overflow-y: hidden;
+    margin-right: -20px;
+    height: 200px;
+    text-align: center;
+    
+}
+.X3container .boxList li{
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.X3container .boxList ul li:nth-child(3){
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: rgb(35, 197, 14);
+}
+.X3container .boxList li:hover{
+    color: rgb(28, 152, 12);;
+    cursor: pointer;
+}
+
+.X3container ul.provinceList{
+    width:80px ;
+    padding-left: 10px;
+}
+.X3container ul.cityList{
+  width: 160px;
+}
+.X3container ul.areaList{
+  width: 100px;
+  padding-right: 10px;
+}
+
+.X3container .boxList .boxcontrol{
+  width: 300px; 
+  height: 50px; 
+  position: absolute;
+  bottom:0px;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .mylist-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.mylist-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.mylist-exit {
+    opacity: 1;
+}
+.mylist-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.mylist-exit-done {
+    display: none;
+} */

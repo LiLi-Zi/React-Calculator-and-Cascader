@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.location{
+    
+}
+.Xcontainer{
+   
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 20px;
+    position: relative;
+}
+.Xcontainer .output{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 85%;
+    
+    
+}
+.Xcontainer .down{
+    width: 15%;
+    line-height: 36px;
+    text-align: center;
+
+}
+.Xcontainer .down:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    color: white;
+}
+
+.Xcontainer .boxList{
+    position:absolute;
+    top:36px;
+    width: 300px;
+    /* display: flex; */
+    height: 100px;
+    overflow: hidden;
+    
+}
+.Xcontainer .boxList ul{
+    width: 120px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    margin-right: -20px;
+    height: 100px;
+    text-align: center;
+    
+}
+.Xcontainer .boxList li{
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+/* .Xcontainer .boxList ul li:nth-child(3){
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color:red;
+} */
+.Xcontainer .boxList li:hover{
+    background-color: rgb(89, 234, 70);
+    cursor: pointer;
+}
+
+.Xcontainer ul.provinceList{
+    width:80px ;
+}
+.Xcontainer ul.cityList{
+  width: 160px;
+}
+.Xcontainer ul.areaList{
+  width: 120px;
+}
+
